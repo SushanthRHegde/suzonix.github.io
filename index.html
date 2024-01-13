@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>suzonix</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="utility.css" />
+</head>
+
+<body>
+    <div class="container flex bg-black">
+        <div class="left">
+            <div class="close">
+                <img src="images/close.png" alt="">
+            </div>
+            <div class="home bg-grey rounded m-1 p-1">
+                <div class="logo">
+                <img class="brighten-effect" src="images/suzonix.png" />
+                </div>
+                <ul>
+                    <li><a href="index.html"><img  src="images/home.png" alt="home" /></a><span>Home</span></li>
+                    <li id="shuffle">
+                        <img src="images/shuffle.png" alt="shuffle" /><span>Shuffle</span>
+                    </li>
+                </ul>
+            </div>
+
+            <div class="library bg-grey rounded m-1 p-1">
+                <ul>
+                    <li>
+                        <img src="images/playlist.svg" alt="playlist" />Your playist
+                    </li>
+                </ul>
+                <div class="songlist">
+                    <ol>
+
+                    </ol>
+                </div>
+            </div>
+
+            <!-- left Footer section -->
+            <div class="footer bg-grey rounded m-1 p-1">
+                <ul>
+                    <li>
+                        <div class="git">
+                            <a href="https://github.com/SushanthRHegde" target="_blank"><img src="images/git.png"
+                                    alt="git" /><span>sushanthrhegde</span></a>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="linedin">
+                            <a href="http://www.linkedin.com/in/sushanthrhegde" target="_blank"><img
+                                    src="images/linkedin.png" alt="linkedin" /><span>sushanthrhegde</span></a>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="insta">
+                            <a href="https://www.instagram.com/suzzyop/" target="_blank "><img src="images/insta.png"
+                                    alt="insta" target="_blank" /><span>suzzyop</span></a>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+
+        <!-- Right sided div -->
+        <div class="right bg-grey rounded">
+            <div class="header">
+                <div class="nav">
+                    <div class="hameCont">
+                        <img  class="hameburger" src="images/hamburger.png" alt="">
+                        <!-- <a href=""><img src="images/left.png" alt="left" /></a>
+                        <a href=""><img src="images/right.png" alt="right" /></a> -->
+                        <h6>"After attempting every charm, he found solace in the melody of his own healing while listening to music"</h6>
+                    </div>
+
+                </div>
+                <!-- <div class="button">
+                    <button class="signupbtn">Sign up</button>
+                    <button class="loginbtn">Log in</button>
+                </div> -->
+            </div>
+
+            <div class="suzonixplaylist">
+                <h2>Suzonix Playlist</h2>
+                <div class="cardcontainer">
+
+                    <div data-folder="Anuv" class="card">
+                        <div class="play">
+                            <img src="images/cards/play2.png" alt="" />
+                        </div>
+                        <img src="images/cards/anuvjain.jpeg" alt="" />
+                        <h3>Anuv Jain Mix</h3>
+                        <p></p>
+                    </div>
+
+                    <div data-folder="edsheeran" class="card">
+                        <div class="play">
+                            <img src="images/cards/play2.png" alt="" />
+                        </div>
+                        <img src="images/cards/edsheeran.jpeg" alt="" />
+                        <h3>Ed Sheeran Mix</h3>
+                        <p></p>
+                    </div>
+
+                    <div data-folder="eminem" class="card">
+                        <div class="play">
+                            <img src="images/cards/play2.png" alt="" />
+                        </div>
+                        <img src="images/cards/eminem.jpeg" alt="" />
+                        <h3>Eminem Rap</h3>
+                        <p></p>
+                    </div>
+
+                    <div data-folder="devotional" class="card">
+                        <div class="play">
+                            <img src="images/cards/play2.png" alt="" />
+                        </div>
+                        <img src="images/cards/Devotional.jpeg" alt="" />
+                        <h3>Devotional songs</h3>
+                        <p></p>
+                    </div>
+
+                    <div data-folder="kannada" class="card">
+                        <div class="play">
+                            <img src="images/cards/play2.png" alt="" />
+                        </div>
+                        <img src="images/cards/kannada.jpeg" alt="" />
+                        <h3>Kannada Retro</h3>
+                        <p></p>
+                    </div>
+                    <div data-folder="weeknd" class="card">
+                        <div class="play">
+                            <img src="images/cards/play2.png" alt="" />
+                        </div>
+                        <img src="images/cards/weekend.jpeg" alt="" />
+                        <h3>The Weeknd Mix</h3>
+                        <p></p>
+                    </div>
+
+                    <div data-folder="workout" class="card">
+                        <div class="play">
+                            <img src="images/cards/play2.png" alt="" />
+                        </div>
+                        <img src="images/cards/gym.jpeg" alt="" />
+                        <h3>Workout Music</h3>
+                        <p></p>
+                    </div>
+                    <div data-folder="sanam" class="card">
+                        <div class="play">
+                            <img src="images/cards/play2.png" alt="" />
+                        </div>
+                        <img src="images/cards/SANAM.jpeg" alt="" />
+                        <h3>Sanam Mix</h3>
+                        <p></p>
+                    </div>
+                </div>
+
+                <!-- Playbar section -->
+                <div class="playbar">
+                    <div class="seekbar">
+                        <div class="circle"></div>
+                    </div>
+
+                    <div class="abovebar">
+                        <div class="songinfo"></div>
+
+                    <div class="songbutton">
+                        <img id="previous" src="images/playbar/previous.png" alt="" />
+                        <img id="play" src="images/playbar/play.svg" alt="" />
+                        <img id="next" src="images/playbar/next.png" alt="" />
+                    </div>
+                        <div class="songtime"></div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
